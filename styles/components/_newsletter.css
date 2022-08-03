@@ -1,0 +1,75 @@
+.newsletter-container {
+  background-image: url(../../images/newsletter-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #aaa1a1;
+  border-radius: 8px;
+  padding-top: 336px;
+  padding-bottom: 178px;
+  padding-left: 135px;
+  position: relative;
+}
+
+.newsletter-text {
+  max-width: 370px;
+}
+
+.newsletter-title {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.newsletter-descr {
+  font-family: 'SFCompactText', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.newsletter-form {
+  background-color: #fff;
+  width: 501px;
+  height: 416px;
+  padding-top: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 133px;
+  top: 465px;
+  border-radius: 0 0 8px 8px;
+}
+
+.newsletter-form-input {
+  width: 357px;
+  border: none;
+  border-bottom: 1px solid rgba(28, 46, 61, 0.3);
+  outline: none;
+  padding-top: 15px;
+  padding-bottom: 3px;
+  position: relative;
+}
+
+.newsletter-form-input::placeholder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1c2e3d;
+}
+
+.newsletter-form-input:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.newsletter-form-button {
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  margin-top: 81px;
+}

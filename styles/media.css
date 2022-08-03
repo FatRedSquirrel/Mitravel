@@ -1,0 +1,671 @@
+@media (max-width: 1500px) {
+
+  /* --- FEATURED --- */
+  .featured-stories {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  /* --- / FEATURED --- */
+
+  /* --- SLIDER --- */
+  .second-slider-slide {
+    width: 700px;
+    height: 440px;
+  }
+
+  /* --- / SLIDER --- */
+}
+
+@media (max-width: 1200px) {
+
+  /* --- FIRST --- */
+  .first-title {
+    max-width: 60%;
+  }
+
+  /* --- / FIRST --- */
+
+  /* --- BECOME --- */
+  .become-title {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    text-align: center;
+  }
+
+  .become-item-overlay-text {
+    font-size: 20px;
+  }
+
+  /* --- / BECOME --- */
+
+
+  /* --- FEATURED --- */
+  .featured-stories {
+    width: 45%;
+  }
+
+  /* --- / FEATURED --- */
+
+
+  /* --- NEWSLETTER --- */
+  .newsletter-container {
+    padding-left: 30px;
+  }
+
+  .newsletter-form {
+    right: 30px;
+    width: 400px;
+    height: 350px;
+  }
+
+  /* --- NEWSLETTER --- */
+
+
+  /* --- SLIDER --- */
+  .second-slider-slide {
+    width: 500px;
+    height: 312px;
+  }
+
+  .featured-videos {
+    padding: 80px;
+  }
+
+  .slider-container {
+    padding: 80px 0;
+  }
+
+  .slide-title {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  .play {
+    width: 80px;
+    height: 80px;
+    background-size: 16px 23px;
+  }
+
+  /* --- / SLIDER --- */
+
+
+  /* --- INSPIRATIONS --- */
+  .inspirations-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .inspirations-item-big {
+    grid-column: initial;
+  }
+
+  .inspirations-item-bigheight {
+    height: 550px;
+  }
+
+  .inspirations-item-7 {
+    grid-column: 2 span;
+  }
+
+  /* --- / INSPIRATIONS --- */
+}
+
+@media (max-width: 992px) {
+  :root {
+    --section-padding: 60px;
+  }
+
+  /* --- SLIDER --- */
+  .featured-videos {
+    padding: var(--section-padding) 40px;
+  }
+
+  /* --- / SLIDER --- */
+
+  /* --- BECOME --- */
+
+  .become-item {
+    width: 39%;
+    margin-right: 0;
+  }
+
+  .become-item {
+    margin-bottom: 6%;
+  }
+
+  .become-item:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .become-item:nth-child(odd) {
+    margin-right: 7%;
+  }
+
+  .become-list {
+    justify-content: center;
+  }
+
+  /* --- / BECOME --- */
+
+
+  /* --- NEWSLETTER --- */
+  .newsletter-form {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 438px;
+    padding-top: 50px;
+  }
+
+  .newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 300px;
+  }
+
+  .newsletter-form-button {
+    margin-top: 40px;
+  }
+
+  .newsletter-descr {
+    margin-bottom: 40px;
+  }
+
+  .newsletter-text {
+    text-align: center;
+  }
+
+  /* --- / NEWSLETTER --- */
+
+
+  /* --- FOOTER --- */
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-column:last-child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .footer-column:last-child .footer-title::after {
+    width: 100%;
+  }
+
+  .footer-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-copyright {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .footer-bottom-list {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* --- / FOOTER --- */
+}
+
+@media (max-width: 768px) {
+
+  /* --- HEADER --- */
+  .header-social {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-social-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  /* --- / HEADER --- */
+
+  /* --- FIRST --- */
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .first-descr {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .search {
+    width: 55%;
+  }
+
+  .first-slider {
+    width: 45%;
+  }
+
+  .search-input {
+    height: 80px;
+  }
+
+  .slider-text {
+    height: 80px;
+  }
+
+  .slider-media {
+    height: 240px;
+  }
+
+  .first-slider-btn {
+    bottom: 11%;
+  }
+
+  .first-btn {
+    margin-bottom: 100px;
+  }
+
+  /* --- / FIRST --- */
+
+  /* --- BECOME --- */
+  .become-item {
+    width: 48%;
+  }
+
+  .become-item:nth-child(odd) {
+    margin-right: 2%;
+  }
+
+  .become-list {
+    justify-content: center;
+  }
+
+  /* --- / BECOME --- */
+
+
+  /* --- SLIDER --- */
+  .second-slider-slide {
+    width: 350px;
+    height: 218px;
+  }
+
+  .slide-title {
+    font-size: 30px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+
+  .play {
+    width: 50px;
+    height: 50px;
+    background-size: 10px 15px;
+  }
+
+  .first-bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .first-slider {
+    position: static;
+  }
+
+  .search {
+    width: 450px;
+  }
+
+  .first-slider {
+    width: 450px;
+  }
+
+  /* --- / SLIDER --- */
+
+
+  /* --- FEATURED --- */
+  .featured {
+    flex-direction: column;
+  }
+
+  .featured-stories {
+    position: static;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .featured-stories-title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .featured-stories-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-stories-item {
+    width: 100%;
+  }
+
+  .featured-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featured-article {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-link {
+    width: 100%;
+  }
+
+  .article-title,
+  .article-descr {
+    text-align: center;
+  }
+
+  .article-title {
+    margin-bottom: 30px;
+  }
+
+  .article-descr {
+    margin-bottom: 60px;
+  }
+
+  .article-category {
+    margin-bottom: 40px;
+  }
+
+  /* --- / FEATURED --- */
+
+
+  /* --- INSPIRATIONS --- */
+  .inspirations-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .inspirations-item {
+    height: 500px;
+  }
+
+  /* --- / INSPIRATIONS --- */
+
+
+  /* --- FOOTER --- */
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-column {
+    width: 50%;
+  }
+
+  .footer-column:last-child {
+    width: 50%;
+    display: block;
+  }
+
+  .footer-column:last-child .footer-title::after {
+    width: 48px;
+  }
+
+  .footer-column:nth-child(3) {
+    margin-top: 40px;
+  }
+
+  /* --- / FOOTER --- */
+}
+
+@media (max-width: 576px) {
+
+  /* --- GLOBAL --- */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* --- / GLOBAL --- */
+
+  /* --- MENU --- */
+  .menu-item-social {
+    display: block;
+  }
+
+
+  .menu {
+    padding-top: 200px;
+  }
+  .menu-list {
+    padding-top: 400px;
+  }
+
+  /* --- / MENU --- */
+
+  /* --- HEADER --- */
+  .header-social {
+    display: none;
+  }
+
+  /* --- / HEADER --- */
+
+
+  /* --- FIRST --- */
+  .first-title {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+  .search-button {
+    right: 30px;
+  }
+
+  /* --- / FIRST --- */
+
+  /* --- BECOME --- */
+  .become-title {
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 60px;
+  }
+
+  .become-item {
+    width: 480px;
+    margin-right: 0;
+  }
+
+  .become-link {
+    width: 100%;
+    height: 100%;
+  }
+
+  .become-item .become-link img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* --- / BECOME --- */
+
+  /* --- NEWSLETTER --- */
+  .newsletter-text {
+    max-width: 250px;
+  }
+
+  .newsletter-title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .newsletter-form {
+    width: 300px;
+    top: 389px;
+  }
+
+  .newsletter-form-input {
+    width: 250px;
+  }
+
+  /* --- / NEWSLETTER --- */
+
+
+  /* --- SLIDER --- */
+  .swiper-slide {
+    width: 300px;
+  }
+
+  .search {
+    width: 350px;
+  }
+
+  .first-slider {
+    width: 350px;
+  }
+
+  /* --- / SLIDER --- */
+
+
+  /* --- INSPIRATIONS --- */
+  .inspirations {
+    padding-top: 180px;
+    padding-bottom: 60px;
+  }
+
+  .inspirations-title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .inspirations-list {
+    padding: 0;
+  }
+
+  .inspirations-item {
+    height: 400px;
+  }
+
+  .inspirations-item-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .inspirations-item-quote {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  /* --- / INSPIRATIONS --- */
+
+
+  /* --- FOOTER --- */
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .footer-column .footer-title::after {
+    width: 100%;
+  }
+
+  .footer-column:last-child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column:last-child .footer-title::after {
+    width: 100%;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-column:nth-child(3),
+  .footer-column:nth-child(4) {
+    margin-top: 0;
+  }
+
+  /* --- / FOOTER --- */
+}
+
+@media (max-width: 376px) {
+
+  /* --- INSPIRATIONS --- */
+  .inspirations-item-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .inspirations-item-quote {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  /* --- / INSPIRATIONS --- */
+
+
+  /* --- SLIDER --- */
+  .swiper-slide {
+    width: 250px;
+  }
+
+  .slide-title {
+    font-size: 21px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .featured-videos {
+    padding: 30px 0;
+  }
+
+  /* --- / SLIDER --- */
+
+
+  /* --- FOOTER --- */
+  .footer-copyright {
+    text-align: center;
+  }
+
+  /* --- / FOOTER --- */
+}

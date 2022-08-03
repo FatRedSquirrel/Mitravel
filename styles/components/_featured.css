@@ -1,0 +1,112 @@
+.featured {
+  position: relative;
+  min-height: 1080px;
+  background-image: url(../../images/featured-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #aaa1a1;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+}
+
+.featured-container {
+  flex-grow: 1;
+  padding-bottom: 106px;
+  z-index: 100;
+}
+
+.featured-article {
+  max-width: 40%;
+}
+
+.article-category {
+  display: block;
+  background-color: #e8594e;
+  width: 132px;
+  height: 48px;
+  text-transform: uppercase;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  font-family: 'SFProDisplay';
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 2px;
+  transition: background-color .3s;
+}
+
+.article-category:hover {
+  background-color: #e31d0e;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 16px;
+}
+
+.article-descr {
+  font-family: 'SFCompactText';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+.article-link {
+  max-width: 266px;
+}
+
+.featured-stories {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 35.3125%;
+  background-color: rgba(60, 74, 81, 0.94);
+  padding: 127px 177px 226px 133px;
+  z-index: 100;
+}
+
+.featured-stories-title {
+  color: #fff;
+  max-width: 368px;
+  margin-bottom: 96px;
+}
+
+.featured-stories-item {
+  display: flex;
+  max-width: 368px;
+  padding-bottom: 33px;
+}
+
+.featured-stories-item img {
+  margin-right: 32px;
+  border-radius: 50%;
+}
+
+.featured-stories-item:not(:last-child) {
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgba(227, 227, 227, 0.1);
+}
+
+.featured-stories-item-title {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.featured-stories-item-date {
+  font-family: 'SFProText';
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(255, 255, 255, 0.502293);
+}

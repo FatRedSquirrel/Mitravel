@@ -1,0 +1,114 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.footer-title {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2.15px;
+  text-transform: uppercase;
+  color: #100e0b;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 48px;
+  background-color: #57a773;
+}
+
+.footer-link {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 29px;
+  color: #959ea6;
+  transition: color .3s;
+}
+
+.footer-link:hover {
+  color: #41474d;
+}
+
+.footer-input {
+  width: 100%;
+  max-width: 368px; 
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: rgba(27, 25, 22, 1);
+  outline: none;
+  padding: 23px 70px 23px 30px;
+  margin-bottom: 16px;
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  color: rgba(27, 25, 22, 0.5);
+}
+
+.footer-btn {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.footer-bottom-container {
+  padding: 32px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  font-family: 'SFProText', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #959ea6;
+}
+
+.footer-bottom-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.footer-bottom-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.footer-bottom-link {
+  font-family: 'SFProText', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #959ea6;
+  transition: color .3s;
+}
+
+.footer-bottom-link:hover {
+  color: #41474d;
+}

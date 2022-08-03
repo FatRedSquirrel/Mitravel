@@ -1,0 +1,109 @@
+.featured-videos {
+  padding: var(--section-padding);
+}
+
+.featured-videos-title {
+  margin: 0 auto;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.featured-videos-descr {
+  font-family: 'SFCompactText';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #788692;
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 155px 0;
+}
+
+.second-slider-slide {
+  background: #e3e3e3;
+  border-radius: 8px;
+  width: 890px;
+  height: 550px;
+  position: relative;
+}
+
+.swiper-slide-active .slide-content {
+  transform: scaleX(1.16) scaleY(1.21415608);
+  transition: transform .3s;
+}
+
+.swiper-slide-active .slide-content .slide-title {
+  /* opacity: 1;
+  transition: opacity .3s; */
+  transform: translateY(0);
+  transition: transform .3s;
+}
+
+.swiper-slide-active .play {
+  display: block;
+}
+
+.slide-content {
+  transition: transform .3s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.slide-1 {
+  background-image: url('../../images/tanjiro.jpg');
+}
+
+.slide-2 {
+  background-image: url('../../images/inosuke.jpg');
+}
+
+.slide-3 {
+  background-image: url('../../images/zenitsu.jpg');
+}
+
+.slide-title {
+  padding-left: 40px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  /* opacity: 0;
+  transition: opacity .3s ease; */
+  transition: transform .3s;
+  transform: translateY(200px)
+}
+
+.play {
+  width: 112px;
+  height: 112px;
+  background-color: #e8594e;
+  border-radius: 50%;
+  background-image: url(../../images/play-video.svg);
+  background-repeat: no-repeat;
+  background-position: 53% center;
+  background-size: 24px 31px;
+  position: absolute;
+  left: 4.638%;
+  top: 5.8296%;
+  display: none;
+}
+
+.swiper-slide video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

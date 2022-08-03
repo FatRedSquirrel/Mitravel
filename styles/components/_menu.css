@@ -1,0 +1,91 @@
+.menu {
+  position: fixed;
+  left: -150vw;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #73afba;
+  transition: left .3s;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.menu-open {
+  left: 0;
+  transition: left .3s;
+}
+
+.menu-nav {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.menu-item-social {
+  display: none;
+}
+
+.menu-item:not(:last-child) {
+  border-bottom: 2px solid rgb(89, 89, 247);
+}
+
+.menu-link {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  transition: color .3s;
+}
+
+.menu-link:hover {
+  color: rgb(89, 89, 247);
+  transition: color .3s;
+}
+
+.menu-close {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+.menu-close::before,
+.menu-close::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #fff;
+  width: 28px;
+  left: 0;
+  top: 0;
+  transition: background-color .3s;
+}
+
+.menu-close::before {
+  transform: rotate(45deg);
+}
+
+.menu-close::after {
+  transform: rotate(135deg);
+}
+
+.menu-close:hover::before,
+.menu-close:hover::after {
+  background-color: rgb(89, 89, 247);
+  transition: background-color .3s;
+}

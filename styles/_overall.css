@@ -1,0 +1,64 @@
+.container {
+  max-width: 1626px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.site-container {
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-reset {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn {
+  display: block;
+  padding: 33px 0;
+  background: #73afba;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2.18182px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.btn:hover {
+  background-color: #00bbdc;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #1C2E3D;
+}
